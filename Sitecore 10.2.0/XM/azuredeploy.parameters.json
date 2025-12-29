@@ -32,5 +32,23 @@
     "authCertificatePassword":{
       "value": ""
     }
+  },
+  
+  "modules": 
+  {
+    "value": 
+    {
+      "items": 
+      [
+        {
+          "name": "bootloader",
+          "templateLink" : "https://github.com/vprasanjith/SitecoreAzure1/blob/feature/SXP9.1.1_Msft_Updates/Sitecore%2010.2.0/XM/addons/bootloader.json",
+          "parameters": 
+          {
+            "<link to the Bootloader WDP>" : "https://wdppackages.blob.core.windows.net/bootloaderwdp/Sitecore.Cloud.Integration.Bootload.wdp.zip"
+          }
+        }
+      ]
+    }
   }
 }
